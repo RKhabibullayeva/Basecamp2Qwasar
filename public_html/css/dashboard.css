@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.containerr {
+    max-width: 1220px;
+    margin: 50px auto 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Change border radius */
+    text-decoration: none;
+}
+
+.page-title {
+    font-size: 32px; /* Increase font size */
+    font-weight: bold;
+    margin-bottom: 30px; /* Increase margin */
+    color: #555; /* Change color */
+}
+
+.add-project-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.btn {
+    background-color: #5cb85c; /* Change background color */
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Change border radius */
+    padding: 10px 20px; /* Adjust padding */
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Change border radius */
+    padding: 8px 16px; /* Adjust padding */
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+    background-color: #f0ad4e; /* Change background color */
+}
+
+.delete {
+    color: #fff;
+    padding: 8px 16px; /* Adjust padding */
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    border: none;
+    border-radius: 25px; /* Change border radius */
+    background-color: #d9534f; /* Change background color */
+}
+
+.delete:hover {
+    background-color: #c9302c; /* Change background color */
+}
+
+.edit-btn:hover {
+    background-color: #ec971f; /* Change background color */
+}
+
+.btn:hover {
+    background-color: #449d44; /* Change background color */
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid #ddd; /* Adjust border properties */
+    margin: 30px 0; /* Increase margin */
+}
+
+.project {
+    background-color: #e9ecef; /* Change background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
+    border-radius: 10px; /* Change border radius */
+    padding: 20px; /* Increase padding */
+    margin-bottom: 20px; /* Increase margin */
+    min-height: 160px; /* Change height */
+}
+
+.project h3 {
+    font-size: 20px; /* Decrease font size */
+    font-weight: bold;
+    margin-bottom: 15px; /* Decrease margin */
+    color: #333;
+}
+
+.project p {
+    font-size: 16px; /* Decrease font size */
+    color: #555;
+    margin-bottom: 15px; /* Decrease margin */
+}
+
+.project-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.project-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change background color */
+    border-bottom: 1px solid #555; /* Change border color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar-logo {
+    text-decoration: none;
+    color: #fff; /* Change text color */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff; /* Change text color */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Change text color */
+}
+
+.nav-username {
+    margin-right: 1rem;
+    font-weight: bold;
+    color: #fff; /* Change text color */
+}
+
+.navbar-title {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Change text color */
+    padding-top: 20px;
+}
+
+.navbar-title a {
+    display: flex;
+    text-decoration: none;
+    color: #fff; /* Change text color */
+}
+
+.navbar-title h4 {
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
